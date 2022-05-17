@@ -3,27 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Random Card</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="container text-center mt-5">
+      <span class="text-white"><b>Contador</b></span>
+      <input
+        class="text-center"
+        id="contador"
+        type="text"
+        onload="contadorsegundos()"
+        value=""
+      />
+    </div>
+    <div class=" row Container mt-5">
+      <div id="rozando" onmouseover="ValorCard()" class="col-9 card container">
+        <span class="top"> ♦ </span>
+        <span class="number">1</span>
+        <span class="button2">♠ </span>
       </div>
+      <div class="container text-center">
+      <button class="barajar text-center" onclick="ValorCard()">
+        barajar
+      </button>
     </div>
   </body>
 </html>

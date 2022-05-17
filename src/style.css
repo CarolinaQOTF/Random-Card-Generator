@@ -1,1 +1,79 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  /* background-color: black; */
+  background-image: url(https://10wallpaper.com/wallpaper/1680x1050/1401/burning_poker_joker-Movie_HD_Wallpapers_1680x1050.jpg);
+}
+.card {
+  display: inline-block;
+  /* margin-top: 120px; */
+  width: 250px;
+  height: 350px;
+  display: inline-block;
+  /* margin-left: 500px; */
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgb(245, 69, 5);
+  /* /* color: black; */
+}
+.card:hover {
+  background: rgb(248, 147, 110);
+  cursor: default;
+  transform: rotate(360deg);
+  transition: all 0.3s ease-in-out 0s;
+}
+.top {
+  position: absolute;
+  top: 10;
+  left: 10px;
+  font-size: 40px;
+}
+
+.button2 {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  font-size: 40px;
+  color: red;
+}
+
+.number {
+  position: absolute;
+  top: 150px;
+  left: 115px;
+  font-size: 40px;
+  color: white;
+}
+.barajar {
+  margin-top: 60px;
+  padding: 8px;
+  width: 100px;
+  border-radius: 10px;
+  border-color: orangered;
+  color: black;
+  box-shadow: 0 0 10px 0 orangered inset, 0 0 10px 4px rgb(252, 66, 4);
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.barajar:hover {
+  box-shadow: 0 0 10px 0 orangered inset, 0 0 10px 4px rgb(252, 66, 4);
+  color: white;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+#contador {
+  width: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgb(245, 69, 5);
+  margin-left: 10px;
+}
+
+#inputWidth {
+  width: 60px;
+}
+
+#inputHeight {
+  width: 60px;
+}
