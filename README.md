@@ -33,6 +33,8 @@ __Note:__ remember that the JS workflow starts inside `window.onload`.
 
 #### 3) I don't see my changes.
 
+
+
 Everytime you change any file inside the `./src` folder the website public URL will automatically refresh the changes (it's a process called hot deploy)
 Remember also to refresh cleaning the cache (command+shift+r on mac, control+shift+r on pc & linux)
 
